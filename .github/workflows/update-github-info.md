@@ -33,9 +33,15 @@ Use these sources:
 
 Use web-fetch to read the Awesome Copilot workflows page.
 
-Update `site/content/github-info.md` with concise,
-practical updates for readers and include source context when content comes
-from the GitHub Blog, GitHub Changelog, or Awesome Copilot workflows.
+Update `site/content/github-info.md` with concise, practical updates for readers.
+
+For every new or changed statement based on the GitHub Blog, GitHub Changelog,
+or Awesome Copilot workflows, include an inline Markdown link to the specific
+source page in the content itself. Briefly explain what the source announced
+or provides and why it matters to readers. Link directly to the relevant
+article, changelog entry, or workflow—not just to a general landing page.
+Do not add claims you cannot verify from the linked source. If no useful,
+verifiable update is available, do not invent one.
 
 Open a pull request for Mona to review. 
 Use a pull request title that mentions Mona or GitHub Info. 
